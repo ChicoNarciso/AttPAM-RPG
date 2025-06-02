@@ -9,7 +9,7 @@ using System.Reflection.Emit;
 
 #nullable disable
 
-namespace RpgApi.Migrations
+namespace AttPAM_RPG.Migrations
 {
     [DbContext(typeof(DataContext))]
     partial class DataContextModelSnapshot : ModelSnapshot
