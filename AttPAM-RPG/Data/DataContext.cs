@@ -32,6 +32,17 @@ namespace AttPAM_RPG.Data
                 new Personagem() { Id = 6, Nome = "Celeborn", PontosVida = 100, Forca = 21, Defesa = 13, Inteligencia = 34, Classe = ClasseEnum.Clerigo },
                 new Personagem() { Id = 7, Nome = "Radagast", PontosVida = 100, Forca = 25, Defesa = 11, Inteligencia = 35, Classe = ClasseEnum.Mago }
             );
+
+            modelBuilder.Entity<Arma>().HasData
+            (
+              new Arma() { Id = 1, Nome = "Arco e Flecha", Dano = 35 },
+              new Arma() { Id = 2, Nome = "Espada", Dano = 33 },
+              new Arma() { Id = 3, Nome = "Machado", Dano = 31 },
+              new Arma() { Id = 4, Nome = "Punho", Dano = 30 },
+              new Arma() { Id = 5, Nome = "Chicote", Dano = 34 },
+              new Arma() { Id = 6, Nome = "Foice", Dano = 33 },
+              new Arma() { Id = 7, Nome = "Cajado", Dano = 32 }
+            );
         }
 
         protected override void ConfigureConventions(ModelConfigurationBuilder configurationBuilder)
