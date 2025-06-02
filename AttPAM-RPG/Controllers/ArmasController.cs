@@ -8,7 +8,7 @@ using Microsoft.EntityFrameworkCore;
 using RpgApi.Data;
 using RpgApi.Models;
 
-namespace RpgApi.Controllers
+namespace AttPAM_RPG.Controllers
 {
     [ApiController]
     [Route("[controller]")]
